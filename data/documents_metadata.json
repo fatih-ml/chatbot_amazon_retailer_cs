@@ -1,0 +1,109 @@
+[
+    {"source_id": 1,
+    "topic": "Setup your Amazon business",
+    "url": "https://sell.amazon.com/sell#ready-to-sell",
+    "title": "How to sell on Amazon: a guide for beginners",
+    "sub_title":"Get an overview of how to create a selling account, list products, fulfill customer orders, and more. Learn how to sell—whether you’re new to online retail or just new to selling in the Amazon store."
+    },
+
+    {"source_id": 2,
+    "topic": "Amazon Programs: Growing your Amazon business by Optimizing Operations",
+    "url": "https://sell.amazon.com/programs/supply-chain",
+    "title": "Supply Chain by Amazon: End-to-end supply chain management for multiple sales channels",
+    "sub_title": "Supply Chain by Amazon is a fully automated set of supply chain services that gets your products from manufacturers to customers around the world. Take advantage of a complete end-to-end solution that keeps products in stock, provides faster and more reliable shipping, and significantly lowers costs."
+    },
+
+    {"source_id": 3,
+    "topic": "Amazon Programs: Growing your Amazon business by Optimizing Operations",
+    "url": "https://sell.amazon.com/fulfillment-by-amazon",
+    "title": "Fulfillment by Amazon (Amazon FBA): Fulfillment services for your ecommerce business, FBA Pricing and Fees ",
+    "sub_title": "Fulfillment by Amazon (FBA) is a program that lets you outsource order fulfillment to Amazon. It’s part of a fully automated set services we call Supply Chain by Amazon. Sign up for FBA to send products to Amazon’s global network of fulfillment centers and offer customers free, two-day shipping through Prime. When a customer makes a purchase, Amazon fulfillment specialists can pick, pack, and ship the order. We can also provide customer service and process returns for those orders."
+    },
+
+    {"source_id": 4,
+    "topic": "Amazon Programs: Growing your Amazon business by Optimizing Operations",
+    "url": "https://sell.amazon.com/programs/fulfilled-by-merchant",
+    "title": "Fulfilled by Merchant: Tools, programs, and automation to enhance how you ship and manage customer orders",
+    "sub_title": "Fulfilled by Merchant is a suite of solutions that helps you save time and money when you fulfill customer orders yourself. Use tools and automation to sync your inventory and streamline the orders you receive from Amazon, as well as other sales channels. Get great shipping rates and offer customers fast, reliable delivery while enjoying increased account-health protection for delivery-related claims. Use Fulfilled by Merchant solutions for every product you sell, or use them for select products while you sell others through Fulfillment by Amazon (FBA)."
+    },
+
+
+    {"source_id": 5,
+    "topic": "Amazon Programs: Growing your Amazon business by Reaching out more customers",
+    "url": "https://sell.amazon.com/advertising",
+    "title": "Advertising: Boost visibility and increase sales with Amazon Ads",
+    "sub_title": "Our advertising tools can help you reach more customers and grow your brand. Campaigns are easy to set up—and you can set your own bids and budgets."
+    },
+
+    
+    {"source_id": 6,
+    "topic": "Amazon Programs: Growing your Amazon business by Reaching out more customers",
+    "url": "https://sell.amazon.com/programs/amazon-business",
+    "title": "Amazon Business: Expand your reach to business customers",
+    "sub_title": "Amazon Business provides a suite of features and tools that can help you connect with business-to-business (B2B) customers. Business customers often buy in larger quantities and return items less—which means you can sell more with less time and effort."
+    },
+
+    {"source_id": 7,
+    "topic": "Amazon Programs: Growing your Amazon business by Reaching out more customers",
+    "url": "https://sell.amazon.com/global-selling",
+    "title": "Global selling: Sell worldwide with Amazon",
+    "sub_title": "Access hundreds of millions of customers around the world with Amazon Global Selling"
+    },
+
+
+    {"source_id": 8,
+    "topic": "Amazon Programs: Growing your Amazon business by Brand registry",
+    "url": "https://sell.amazon.com/brand-registry",
+    "title": "Amazon Brand Registry: Launch your brand with Amazon",
+    "sub_title": "Enroll your brand in Amazon Brand Registry to become eligible to activate a suite of brand-building tools and protection benefits."
+    },
+
+    {"source_id": 9,
+    "topic": "Amazon selling tools",
+    "url": "https://sell.amazon.com/tools#apps-services",
+    "title": "Apps, services, and more to help your business run",
+    "sub_title": "Scale your online business, operate more efficiently, and automate key workflows using tools created by Amazon and approved third parties."
+    },
+
+    {"source_id": 10,
+    "topic": "Amazon selling tools",
+    "url": "https://sell.amazon.com/tools/amazon-seller-app",
+    "title": "Manage your online business on the go with the Amazon seller app",
+    "sub_title": "The Amazon Seller app allows you to manage online business details remotely by creating listings, tracking sales, fulfilling orders, responding to customers, and more—all from your mobile device."
+    },
+
+    {"source_id": 11,
+    "topic": "Amazon selling programs",
+    "url": "https://sell.amazon.com/programs#supply-chain",
+    "title": "Unlock a universe of selling opportunities",
+    "sub_title": "What type of Amazon seller are you? Play to your strengths and create your selling strategy with a variety of programs made to support your unique business."
+    },
+
+    {"source_id": 12,
+    "topic": "Amazon Seller Costs and Pricing",
+    "url": "https://sell.amazon.com/pricing",
+    "title": "Pricing: Amazon standard selling fees",
+    "sub_title": "Our standard selling fees provide you with access to a package of Amazon tools and services. They’re divided into two basic types: selling plan fees and referral fees.In addition to selling fees, you might have added costs if you use certain optional tools and programs like Fulfillment by Amazon (FBA) or Amazon Ads. Ultimately, you get to control the cost of selling in the Amazon store by selecting the programs, tools, and services that are right for your business."
+    },
+
+    {"source_id": 13,
+    "topic": "Amazon Seller Costs and Pricing",
+    "url": "https://sell.amazon.com/pricing/optional-costs",
+    "title": "Pricing: Costs for optional services",
+    "sub_title": "Our optional services can help you grow and transform your business. Pick the tools and programs that are right for you, then customize how you use each one so you can get the right benefits for the right price."
+    },
+
+    {"source_id": 14,
+    "topic": "Amazon Seller Costs and Pricing",
+    "url": "https://sell.amazon.com/fulfillment-by-amazon#fba-costs",
+    "title": "Fulfillment by Amazon (FBA fulfillment) costs",
+    "sub_title": "The fulfillment cost per unit includes picking and packing your orders, shipping and handling, customer service, and product returns. Costs are based on the weights and dimensions of your product. Shipping weight is calculated based on the item’s unit weight or dimensional weight."
+    },
+
+    {"source_id": 15,
+    "topic": "Frequently Asked Questions (FAQ) about selling products on Amazon",
+    "url": "https://sell.amazon.com/learn",
+    "title": "Frequently Asked Questions",
+    "sub_title": "Get answers to the frequently asked questions about using Amazon for ecommerce."
+    } 
+]

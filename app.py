@@ -8,8 +8,8 @@ import pinecone
 load_dotenv()
 
 # Access the API keys from environment variables
-OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
-PINECONE_API_KEY = os.getenv('PINECONE_API_KEY')
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 
 # Set API keys for the respective services
 openai.api_key = OPENAI_API_KEY
