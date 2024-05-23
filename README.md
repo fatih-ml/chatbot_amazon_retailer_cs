@@ -1,61 +1,18 @@
-# Amazon Retailer Customer Service Chatbot
+in this project our aim is to build a chatbot for sellers on amazon
+the topics are related various issues regarding selling on amazon such as logistics or marketing.
 
-This project implements a customer service chatbot for an Amazon retailer using LangChain, LlamaParse, OpenAI's GPT-3.5 Turbo API, and deploys it on Streamlit. The chatbot uses provided PDF documents to handle customer queries.
+This is not a thorough chatbot, rather an educational study for experimental purposes.
 
-## Requirements
+we have visited 15 valuable pages on amazon seller central and took pdf samples of those pages, importantly we have also composed metadata such as titles, subtitles and topics for these pages.
 
-- Python 3.11.9
-- Streamlit
-- LangChain
-- LlamaParse (API Key needed)
-- OpenAI (API Key needed)
-- Pinecone-client (API Key needed)
-- PyPDF2
+Later, we have used LlamaParse to extract these documents into markdown format, then rearranged metadata and markdown files into a signle json format.
 
-## Setup
+then we have used Llama index VectorStoreIndex to vectorize, cache and index the data for later use in our retrieval queries.
 
-1. Clone the repository:
+On the other hand, we have used OpenI API for GPT3.5Turbo model for text generation from the retrieved tasks. VectorStoreIndex and OpenAI made very simple to ube used together, thx for this convenience.
 
-   ```bash
-   git clone https://github.com/fatih-ml/chatbot_amazon_retailer_cs.git
-   cd chatbot_amazon_retailer_cs
-   ```
+finaly we have used streamlit to deploy our study.
 
-2. Create and activate a virtual environment:
+we clearly observed that accuracy of the answers are much higher because of adding relevant metadata to the documents.
 
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-   ```
-
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Usage
-
-1. Replace API Keys with your, or create a config/env file to configure your API keys
-
-2. Add your PDF documents to the `data` directory.
-
-3. Run the Streamlit app:
-
-   ```bash
-   streamlit run app.py
-   ```
-
-4. Open your web browser and navigate to `http://localhost:8501` to interact with the chatbot.
-
-## Acknowledgements
-
-- [LangChain](https://github.com/hwchase17/langchain)
-- [LlamaParse](https://github.com/example/llamaparse)
-- [OpenAI](https://openai.com)
-- [Streamlit](https://streamlit.io)
-- [Pinecone](https://www.pinecone.io)
-- [PyPDF2](https://pypdf2.readthedocs.io/en/latest/)
-
-## Contact
-
-For any questions or issues, please contact..
+Thanks for reading and visiting my repo, please dont hesitate to contribute or ask any questions.

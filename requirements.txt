@@ -1,6 +1,5 @@
-langchain==0.1.20
 openai==1.28.2
 streamlit==1.32.2
-llama-parse==0.3.9
-pinecone-client==3.2.2
+llama-parse==0.4.3
 python-dotenv==1.0.1
+llama-index==0.10.38

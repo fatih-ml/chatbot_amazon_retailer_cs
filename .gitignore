@@ -2,3 +2,4 @@
 .env
 __pycache__ 
 *.h5
+.streamlit/secrets.toml
