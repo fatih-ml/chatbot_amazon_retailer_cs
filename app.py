@@ -1,6 +1,6 @@
 import streamlit as st
 import json
-from llama_index.core import Document, VectorStoreIndex
+from llama_index.core import Document, VectorStoreIndex, ServiceContext
 from llama_index.llms.openai import OpenAI
 
 # Access the API keys from environment variables
@@ -38,8 +38,25 @@ def my_load_data():
             for doc in rag_dataset
         ]
 
+        # Service context tanimla
+        service_context = ServiceContext.from_defaults(
+            llm=OpenAI(
+                model="gpt-3.5-turbo",
+                temperature=0.5,
+                system_prompt="""You are a knowledgeable learning assistant. 
+                                Your users are asking questions about selling products on Amazon 
+                                and some documents are provided for you about selling products on amazon.com 
+                                You will be shown the user's question, and the relevant information from the amazon seller central informative materials. 
+                                Answer the user's question using only this information. 
+                                If you don't know the answer, just say you don't know. 
+                                Use three sentences maximum and be concise in your response.""",
+            )
+        )
+
         # Create a VectorStoreIndex from the list of documents
-        index = VectorStoreIndex.from_documents(documents_list)
+        index = VectorStoreIndex.from_documents(
+            documents_list, service_context=service_context
+        )
         return index
 
 

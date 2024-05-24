@@ -3,3 +3,5 @@ streamlit==1.32.2
 llama-parse==0.4.3
 python-dotenv==1.0.1
 llama-index==0.10.38
+pinecone-client==4.1.0
+sentence-transformers==2.7.0
