@@ -1,0 +1,26 @@
+# Ignore Python bytecode and other unnecessary files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore other unneeded files
+*.log
+*.tmp
+
+# Ensure these files are included
+!.env
+!.streamlit/secrets.toml
+
+# ignore docs, pdfs, notebooks
+.docx
+.ipynb
+.pdf
